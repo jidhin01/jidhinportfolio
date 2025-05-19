@@ -1,45 +1,49 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../src/components/ui/floating-navbar";
-import { IconGymnastics, IconMessage, IconChecklist } from "@tabler/icons-react";
-export function FloatingNavDemo({}) {
+import { IconGymnastics, IconMessage, IconChecklist, IconBallpen ,IconLayoutBottombarInactive,IconTimeline, } from "@tabler/icons-react";
+
+export function Navbar({}) {
   
   const navItems = [
     
     {
+      
       name: "Skils",
-      link: "/skils",
+      link: "Skils",
       icon: <IconGymnastics className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Project",
-      link: "/project",
+      link: "Project",
       icon: <IconChecklist className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
-    
+   
     {
-      name: "Contact",
-      link: "/contact",
-      icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+      name: "Education",
+      link: "Education",
+      icon: <IconBallpen className="h-4 w-4 text-neutral-500 dark:text-white" />
       
     },
+     {
+      name: "Experience",
+      link: "Experience",
+      icon: <IconTimeline  className="h-4 w-4 text-neutral-500 dark:text-white " />
+      
+    },
+    {
+      name: "Contact",
+      link: "Contact",
+      icon: <IconMessage  className="h-4 w-4 text-neutral-500 dark:text-white " />
+      
+    },
+    
   ];
   return (
+    
     <div className="relative  w-full">
       <FloatingNav navItems={navItems} />
     </div>
   );
 }
-const DummyContent = () => {
-  return (
-    <div
-      className="grid grid-cols-1 h-[40rem] w-full bg-white dark:bg-black relative border border-neutral-200 dark:border-white/[0.2] rounded-md">
-      <p
-        className="dark:text-white text-neutral-600 text-center text-7xl mt-50 font-bold">
-        JIDHIN
-      </p>
-      <div className="inset-0 absolute bg-grid-black/[0.1] dark:bg-grid-white/[0.2]" />
-    </div>
-    
-  );
-};
+

@@ -1,18 +1,26 @@
 import React, { useRef } from 'react';
-import {BackgroundBeamsDemo} from"./Herosection"
-import { FloatingNavDemo } from './Fnav'
+import {Herosection} from"./Herosection"
+import { Navbar } from './Fnav'
+import { Skils }  from './Skils'
+import { Project} from './Project';
+import { Education} from './Education';
+import { Experience} from './Experience';
+import { Contact } from './Contact';
+import {Footer} from './Footer';
 import  Testpara  from './testpara'
-import { DummyContent } from './Skils'
-
 function App() {
   
 
   return (
     <>
-      <FloatingNavDemo />
-      <BackgroundBeamsDemo />
-      <Testpara />
-      <DummyContent />
+      <Navbar />
+      <Herosection />
+      <Skils />
+      <Project />
+      <Education />
+      <Experience />
+      <Contact />
+      <Footer />
       
      
     </>
