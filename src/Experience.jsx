@@ -1,13 +1,19 @@
+import React from "react";
+import { BackgroundBeams } from "./components/ui/background-beams";
+
 export const Experience = () => {
   return (
     <div
         id="Experience"
 
-      className="grid grid-cols-1 h-[40rem] w-full bg-white dark:bg-lime-600 relative border ">
+      className="h-[40rem] w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
       <p
-        className="dark:text-white text-neutral-600 text-center text-7xl mt-50 font-bold">
+        className=" text-neutral-600 text-center text-7xl mt-50 font-bold">
         JIDHIN Experience
       </p>
+                  <BackgroundBeams />
+
+      
     </div>
     
   );

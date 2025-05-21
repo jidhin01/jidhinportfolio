@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import {Herosection} from"./Herosection"
 import { Navbar } from './Fnav'
-import { Skils }  from './Skils'
+import { Skills }  from './Skills'
 import { Project} from './Project';
 import { Education} from './Education';
 import { Experience} from './Experience';
@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Herosection />
-      <Skils />
+      <Skills />
       <Project />
       <Education />
       <Experience />

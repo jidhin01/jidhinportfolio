@@ -9,8 +9,8 @@ export function Navbar({}) {
     
     {
       
-      name: "Skils",
-      link: "Skils",
+      name: "Skills",
+      link: "Skills",
       icon: <IconGymnastics className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {

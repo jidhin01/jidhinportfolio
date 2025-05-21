@@ -3,9 +3,10 @@ import React from 'react';
 export const Footer = () => {
   return (
     <footer
+    
       style={{
-        backgroundColor: '#111111', // Dark background
-        color: '#f4f4f4', // Light text
+        backgroundColor: '#0a0a0a', // Dark background
+        color: '#737373', // Light text
         padding: '20px',
         textAlign: 'center',
         fontSize: '0.9em',
@@ -18,7 +19,7 @@ export const Footer = () => {
           href="https://www.linkedin.com/in/jidhin-t"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#f4f4f4', textDecoration: 'underline' }}
+          style={{ color: '#737373', textDecoration: 'underline' }}
         >
           LinkedIn
         </a>{' '}
@@ -27,14 +28,14 @@ export const Footer = () => {
           href="https://github.com/jidhin01"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#f4f4f4', textDecoration: 'underline' }}
+          style={{ color: '#737373', textDecoration: 'underline' }}
         >
           GitHub
         </a>{' '}
         |{' '}
         <a
           href="mailto:hinjit86@gmail.com"
-          style={{ color: '#f4f4f4', textDecoration: 'underline' }}
+          style={{ color: '#737373', textDecoration: 'underline' }}
         >
           Email
         </a>
