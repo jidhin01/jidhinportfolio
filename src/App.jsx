@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import {Herosection} from"./Herosection"
 import { Navbar } from './Fnav'
 import { Skills }  from './Skills'
-import { Project} from './Project';
+import { Projects} from './Projects';
 import { Education} from './Education';
 import { Experience} from './Experience';
 import { Contact } from './Contact';
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Herosection />
       <Skills />
-      <Project />
+      <Projects />
       <Education />
       <Experience />
       <Contact />

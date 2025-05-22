@@ -1,5 +1,6 @@
 // src/components/Skills.jsx
 import React from 'react';
+import { BackgroundBeams } from "./components/ui/background-beams";
 
 // A simple component to render SVG icons based on skill name.
 // You can expand this or replace it with a library like react-icons.
@@ -77,7 +78,7 @@ export const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-16 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+    <section id="skills" className="h-[40rem] w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-extrabold text-center mb-12">My Skills</h2>
 
@@ -93,7 +94,7 @@ export const Skills = () => {
           ))}
         </div>
       </div>
-      
+      <BackgroundBeams />
     </section>
   );
 };
