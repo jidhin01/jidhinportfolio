@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'My portfolio',
     description: 'This React.js portfolio showcases my passion for building dynamic web experiences, featuring various projects that highlight my full-stack development skills.',
-    techStack: ['Node.js', 'React', 'JavaScript', 'Tailwind CSS'],
+    techStack: [ 'React', 'JavaScript', 'Tailwind CSS'],
     liveLink: '#',
     githubLink: 'https://github.com/jidhin01/jidhinportfolio',
   },
