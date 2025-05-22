@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Link } from 'react-scroll'; 
-
+import {  IconDownload } from "@tabler/icons-react";
 import { BackgroundBeams } from "./components/ui/background-beams";
 export function Herosection() {
   return (
@@ -19,8 +19,7 @@ export function Herosection() {
 
       <div className="mt-5">
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-          A full-stack developer who loves turning creative visions into functional realities on the web.
-        </p>
+          A full-stack developer who loves turning creative visions into functional realities on the web. Dive into my portfolio to see the projects I've poured my energy and expertise into.        </p>
       </div>
 
       <div className="mt-12 flex justify-center space-x-6 relative z-10">
@@ -31,7 +30,7 @@ export function Herosection() {
           spy={true}
           exact="true"
           offset={-50}
-          className="text-neutral-500 font-semibold text-lg border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:border-blue-600 focus:text-blue-600 transition duration-300 pb-1"
+          className="text-neutral-500 font-semibold text-lg   hover:text-blue-500 focus:outline-none  focus:text-blue-500 transition duration-300 pb-1"
         >
           Contact me
         </Link>
@@ -40,9 +39,9 @@ export function Herosection() {
           download="jidhin.docx"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-neutral-500 font-semibold text-lg border-b-2 border-transparent hover:border-gray-400 hover:text-gray-400 focus:outline-none focus:border-gray-400 focus:text-gray-400 transition duration-300 pb-1"
+          className="text-neutral-500 font-semibold text-lg   hover:text-blue-500 focus:outline-none  focus:text-blue-500 transition duration-300 pb-1 flex"
         >
-          My Resume
+          <IconDownload />My Resume
         </a>
       </div>
     </div>

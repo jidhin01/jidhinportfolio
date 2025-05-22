@@ -28,25 +28,27 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section id="projects" className="h-[40rem] w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-extrabold text-center mb-12">My Projects</h2>
+    <section id="Projects" className="h-[40rem] w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+                  <BackgroundBeams />
+
+      <div className="container z-10 mx-auto px-4">
+        <h2 className="text-4xl text-neutral-500 font-extrabold text-center mb-12">My Projects</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-lg flex flex-col justify-between
+              className="border border-neutral-700 hover:border-neutral-600 p-6 rounded-[20px] shadow-lg flex flex-col justify-between
                          transform transition duration-300 hover:scale-105 hover:shadow-xl"
             >
               <div>
-                <h3 className="text-2xl font-bold mb-3 text-blue-600 dark:text-blue-400">{project.title}</h3>
-                <p className="text-gray-700 dark:text-gray-200 mb-4">{project.description}</p>
+                <h3 className="text-2xl font-bold mb-3 text-neutral-500">{project.title}</h3>
+                <p className="text-neutral-500 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.techStack.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium"
+                      className="px-3 py-1 bg-gray-800 text-gray-400 rounded-full text-sm font-medium"
                     >
                       {tech}
                     </span>
@@ -59,7 +61,7 @@ export const Projects = () => {
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200"
+                    className="px-4 py-2 border hover:border-blue-500 border-gray-600 text-neutral-500 rounded-[20px] hover:bg-gray-800 transition duration-200"
                   >
                     View Live
                   </a>
@@ -69,7 +71,7 @@ export const Projects = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-600 transition duration-200"
+                    className="px-4 py-2 border border-gray-600 hover:border-blue-500 text-neutral-500 rounded-[20px] hover:bg-gray-800 transition duration-200"
                   >
                     GitHub
                   </a>
