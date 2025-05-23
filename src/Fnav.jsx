@@ -1,7 +1,10 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../src/components/ui/floating-navbar";
-import { IconGymnastics, IconMessage, IconChecklist, IconBallpen ,IconTimeline, } from "@tabler/icons-react";
+import { IconChecklist, IconBallpen ,IconTimeline, } from "@tabler/icons-react";
+import { GiSkills, } from "react-icons/gi";
+import { IoMdContact } from "react-icons/io";
+
 
 export function Navbar({}) {
   
@@ -11,30 +14,30 @@ export function Navbar({}) {
       
       name: "Skills",
       link: "Skills",
-      icon: <IconGymnastics className="h-4 w-4 text-neutral-500" />,
+      icon: <GiSkills  className="h-4 w-4 text-neutral-500 hover:text-blue-400 active:text-blue-400" />,
     },
     {
       name: "Projects",
       link: "Projects",
-      icon: <IconChecklist className="h-4 w-4 text-neutral-500  " />,
+      icon: <IconChecklist  className="h-4 w-4 text-neutral-500 hover:text-blue-400 active:text-blue-400 " />,
     },
    
     {
       name: "Education",
       link: "Education",
-      icon: <IconBallpen className="h-4 w-4 text-neutral-500  " />
+      icon: <IconBallpen  className="h-4 w-4 text-neutral-500 hover:text-blue-400 active:text-blue-400 " />
       
     },
      {
       name: "Experience",
       link: "Experience",
-      icon: <IconTimeline  className="h-4 w-4 text-neutral-500   " />
+      icon: <IconTimeline  className="h-4 w-4 text-neutral-500  hover:text-blue-400 active:text-blue-400 " />
       
     },
     {
       name: "Contact",
       link: "Contact",
-      icon: <IconMessage  className="h-4 w-4 text-neutral-500   " />
+      icon: <IoMdContact  className="h-4 w-4 text-neutral-500  hover:text-blue-400 active:text-blue-400 " />
       
     },
     

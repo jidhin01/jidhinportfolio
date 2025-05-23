@@ -8,14 +8,14 @@ import { SiTailwindcss } from 'react-icons/si';
 
 export const Skills = () => {
   const mySkills = [
-    { name: 'JavaScript', icon: DiJavascript1, color: '#F7DF1E' },
+    { name: 'Python', icon: DiPython, color: '#3776AB' },
     { name: 'React', icon: DiReact, color: '#61DAFB' },
-    { name: 'Django', icon: DiDjango, color: '#092E20' },
+    { name: 'JavaScript', icon: DiJavascript1, color: '#F7DF1E' },
+    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#38B2AC' },
     { name: 'HTML', icon: DiHtml5, color: '#E34F26' },
+    { name: 'Django', icon: DiDjango, color: '#092E20' },
     { name: 'CSS', icon: DiCss3, color: '#1572B6' },
     { name: 'Node.js', icon: DiNodejs, color: '#339933' },
-    { name: 'Python', icon: DiPython, color: '#3776AB' },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#38B2AC' },
     { name: 'SQL', icon: DiSqllite, color: '#00758F' },
     { name: 'Git', icon: DiGit, color: '#F05032' },
   ];
