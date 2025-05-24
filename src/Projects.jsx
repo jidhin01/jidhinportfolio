@@ -53,7 +53,7 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="flex flex-wrap gap-4 mt-4">
-                {project.liveLink && (
+                {/* {project.liveLink && (
                   <a
                     href={project.liveLink}
                     target="_blank"
@@ -62,7 +62,7 @@ export const Projects = () => {
                   >
                     View Live
                   </a>
-                )}
+                )} */}
                 {project.githubLink && (
                   <a
                     href={project.githubLink}
