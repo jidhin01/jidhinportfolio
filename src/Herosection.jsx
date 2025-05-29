@@ -35,7 +35,7 @@ export function Herosection() {
           </Link>
 
           <a
-            href="../public/assets/jidhin.docx"
+            href="../public/assets/jidhin.resume.pdf"
             download="jidhin.docx"
             target="_blank"
             rel="noopener noreferrer"
