@@ -7,7 +7,6 @@ import { Education} from './Education';
 import { Experience} from './Experience';
 import { Contact } from './Contact';
 import {Footer} from './Footer';
-import  Testpara  from './testpara'
 function App() {
   
 
