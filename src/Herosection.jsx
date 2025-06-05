@@ -35,8 +35,8 @@ export function Herosection() {
           </Link>
 
           <a
-            href={`${import.meta.env.BASE_URL}/assets/jidhin.resume1.pdf`}
-            download="jidhin.resume1.pdf"
+            href={`${import.meta.env.BASE_URL}/assets/jidhin.pdf`}
+            download="jidhin.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-500 font-semibold text-base sm:text-lg hover:text-blue-500 focus:outline-none transition duration-300 flex items-center gap-2"

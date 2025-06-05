@@ -10,6 +10,13 @@ const projects = [
     githubLink: 'https://github.com/jidhin01/jidhinportfolio',
   },
   {
+    title: 'Weather App',
+    description: 'Developed a React.js weather app displaying real-time data (temperature, humidity, wind) from the OpenWeatherMap API based on user-entered locations, enhancing user experience with immediate feedback.',
+    techStack: ['React', 'JavaScript', 'Tailwind CSS'],
+    liveLink: '#',
+    githubLink: 'https://github.com/jidhin01/weatherapp',
+  },
+  {
     title: 'Popcorn',
     description: 'A Python Django project showcasing the design and user interface for a movie ticket-booking website, focusing on intuitive navigation and visual appeal.',
     techStack: ['Django', 'Python','HTML', 'CSS','JavaScript'],
